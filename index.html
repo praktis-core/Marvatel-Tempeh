@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MarvAtel Tempeh - Internet Cepat, Stabil, Aman &amp; Gratis Pasang</title>
+<meta property="og:title" content="MarvAtel Tempeh - Internet Cepat, Stabil, Aman &amp; Gratis Pasang">
+<meta name="description" content="Dapatkan internet cepat, stabil, dan aman di Tempeh. GRATIS biaya pemasangan, harga mulai 100 ribuan, pembayaran mudah. Kantor dekat, layanan cepat. Pesan sekarang!">
+<meta property="og:description" content="Dapatkan internet cepat, stabil, dan aman di Tempeh. GRATIS biaya pemasangan, harga mulai 100 ribuan, pembayaran mudah. Kantor dekat, layanan cepat. Pesan sekarang!">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+
+:root{
+  --bg:#0d1310;--bg-rgb:13,19,16;
+  --bg-mid:#1a2420;--bg-mid-rgb:26,36,32;
+  --bg-light:#2a3a34;
+  --text:#f4f4f4;--text-rgb:244,244,244;
+  --accent:#b8a878;--accent-rgb:184,168,120;
+  --headline-font:'Montserrat',sans-serif;
+  --body-font:'Inter',sans-serif;
+  --mono-font:'IBM Plex Mono',monospace;
+  --border-w:1px;
+  --btn-radius:0;
+  --hero-grid-overlay:grid;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{font-family:var(--body-font);background:var(--bg);color:var(--text);font-weight:400;line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+::selection{background:var(--accent);color:var(--bg)}
+.eyebrow{display:inline-block;font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.25em;color:var(--accent);opacity:0;transform:translateY(16px);transition:opacity 600ms cubic-bezier(.22,1,.36,1),transform 600ms cubic-bezier(.22,1,.36,1)}
+.is-in .eyebrow{opacity:1;transform:none;transition-delay:100ms}
+.eyebrow::after{content:'';display:inline-block;width:0;height:1px;margin-left:.75rem;vertical-align:middle;background:currentColor;transition:width 800ms cubic-bezier(.22,1,.36,1) 400ms}
+.is-in .eyebrow::after{width:2rem}
+.headline{font-family:var(--headline-font);font-weight:900;letter-spacing:-.022em;line-height:.95;color:var(--text)}
+.headline-enter{opacity:0;transform:translateY(40px);transition:opacity 1200ms cubic-bezier(.22,1,.36,1),transform 1200ms cubic-bezier(.22,1,.36,1)}
+.is-in .headline-enter{opacity:1;transform:none;transition-delay:200ms}
+.section{padding:5rem 2rem;position:relative}
+@media(max-width:768px){.section{padding:4rem 1.5rem}}
+.container{max-width:1280px;margin:0 auto}
+.container--narrow{max-width:800px}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.25rem 2rem;background:rgba(var(--bg-rgb),.8);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid rgba(var(--text-rgb),.06);display:flex;align-items:center;justify-content:space-between;transition:padding 400ms cubic-bezier(.22,1,.36,1)}
+.nav.scrolled{padding:.8rem 2rem}
+.nav__logo{font-family:var(--headline-font);font-weight:900;font-size:.9rem;letter-spacing:.02em;display:flex;align-items:center;gap:.6rem}
+.nav__logo-mark{width:26px;height:26px;border:1.5px solid var(--accent);display:grid;place-items:center;font-size:.6rem;font-family:var(--mono-font);color:var(--accent);font-weight:500}
+.nav__links{display:flex;gap:2rem;font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.15em}
+.nav__links a{opacity:.7;transition:opacity 300ms}
+.nav__links a:hover{opacity:1}
+.nav__cta{font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;padding:.6rem 1.2rem;border:1px solid var(--text);background:transparent;color:var(--text);transition:all 300ms cubic-bezier(.4,0,.2,1)}
+.nav__cta:hover{background:var(--text);color:var(--bg)}
+@media(max-width:768px){.nav__links{display:none}.nav{padding:1rem 1.25rem}}
+.hero{min-height:90vh;padding:7rem 2rem 4rem;background:linear-gradient(180deg,var(--bg) 0%,var(--bg-mid) 100%);display:flex;align-items:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(var(--text-rgb),.025) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--text-rgb),.025) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;mask-image:radial-gradient(ellipse at center,black 30%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at center,black 30%,transparent 75%)}
+.hero__grid{display:grid;grid-template-columns:1.5fr 1fr;gap:3rem;max-width:1280px;margin:0 auto;width:100%;align-items:center;position:relative;z-index:1}
+.hero__title{font-family:var(--headline-font);font-weight:900;font-size:clamp(2rem,5vw,3.8rem);letter-spacing:-.025em;line-height:.95;margin:1.25rem 0 1.5rem}
+.hero__title em{font-style:normal;color:var(--accent);position:relative}
+.hero__title em::after{content:'';position:absolute;left:0;right:0;bottom:-.05em;height:.06em;background:var(--accent);opacity:.35}
+.hero__sub{font-size:1rem;line-height:1.6;max-width:35rem;color:rgba(var(--text-rgb),.75);margin-bottom:2rem}
+.hero__ctas{display:flex;gap:1rem;flex-wrap:wrap}
+.btn{font-family:var(--mono-font);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;padding:1rem 1.6rem;border:var(--border-w) solid var(--text);background:transparent;color:var(--text);transition:all 400ms cubic-bezier(.4,0,.2,1);cursor:pointer;display:inline-flex;align-items:center;gap:.5rem;border-radius:var(--btn-radius)}
+.btn--primary{background:var(--text);color:var(--bg)}
+.btn--primary:hover{background:var(--accent);border-color:var(--accent)}
+.btn--ghost:hover{background:rgba(var(--text-rgb),.06)}
+.btn__arrow{transition:transform 400ms cubic-bezier(.4,0,.2,1);display:inline-block}
+.btn:hover .btn__arrow{transform:translateX(4px)}
+.hero__panel{border:1px solid rgba(var(--text-rgb),.08);padding:2rem;background:rgba(var(--bg-mid-rgb),.5);backdrop-filter:blur(10px)}
+.hero__panel-label{font-family:var(--mono-font);font-size:.65rem;text-transform:uppercase;letter-spacing:.25em;color:var(--accent);margin-bottom:1.2rem}
+.hero__stat{font-family:var(--headline-font);font-weight:900;font-size:3.5rem;line-height:1;letter-spacing:-.03em;margin-bottom:.5rem;display:flex;align-items:baseline;gap:.3rem}
+.hero__stat-unit{font-size:.3em;color:var(--accent);font-family:var(--mono-font);text-transform:uppercase;letter-spacing:.12em;font-weight:500}
+.hero__stat-desc{font-size:.85rem;color:rgba(var(--text-rgb),.6);line-height:1.5;margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(var(--text-rgb),.08)}
+.hero__panel-meta{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.hero__panel-meta-item{font-family:var(--mono-font);font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(var(--text-rgb),.45);line-height:1.4}
+.hero__panel-meta-item strong{display:block;font-family:var(--headline-font);font-size:1.25rem;color:var(--text);margin-top:.4rem;letter-spacing:-.02em;font-weight:900}
+.hero__eyebrow,.hero__title,.hero__sub,.hero__ctas,.hero__panel{opacity:0;transform:translateY(40px);transition:opacity 1000ms cubic-bezier(.22,1,.36,1),transform 1000ms cubic-bezier(.22,1,.36,1)}
+.hero.is-in .hero__eyebrow{opacity:1;transform:none;transition-delay:0ms}
+.hero.is-in .hero__title{opacity:1;transform:none;transition-delay:150ms}
+.hero.is-in .hero__sub{opacity:1;transform:none;transition-delay:300ms}
+.hero.is-in .hero__ctas{opacity:1;transform:none;transition-delay:450ms}
+.hero.is-in .hero__panel{opacity:1;transform:none;transition-delay:600ms}
+@media(max-width:968px){.hero__grid{grid-template-columns:1fr;gap:2.5rem}.hero__panel{display:none}.hero{padding:6rem 1.5rem 3rem}}
+.pain{background:var(--bg)}
+.pain__intro{max-width:800px;margin:0 auto 4rem;text-align:center}
+.pain__intro .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.pain__pair{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.pain__card{border:1px solid rgba(var(--text-rgb),.08);padding:2.5rem;background:var(--bg-mid);position:relative;min-height:24rem;display:flex;flex-direction:column}
+.pain__card-num{font-family:var(--mono-font);font-size:.7rem;letter-spacing:.25em;color:var(--accent);margin-bottom:1.5rem}
+.pain__card-title{font-family:var(--headline-font);font-weight:900;font-size:1.4rem;letter-spacing:-.02em;line-height:1.15;margin-bottom:1.2rem}
+.pain__card-body{font-size:.95rem;color:rgba(var(--text-rgb),.68);line-height:1.6;margin-bottom:auto}
+.pain__card-stat{margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(var(--text-rgb),.08);display:flex;align-items:baseline;gap:.8rem}
+.pain__card-stat-num{font-family:var(--headline-font);font-weight:900;font-size:2rem;letter-spacing:-.025em;color:var(--accent);line-height:1}
+.pain__card-stat-label{font-size:.8rem;color:rgba(var(--text-rgb),.5);font-family:var(--mono-font);text-transform:uppercase;letter-spacing:.08em;line-height:1.4}
+@media(max-width:768px){.pain__pair{grid-template-columns:1fr}.pain__card{padding:2rem;min-height:auto}}
+.solution{background:var(--bg-mid)}
+.solution__head{text-align:center;margin-bottom:3.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.solution__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.solution__grid{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:1100px;margin:0 auto;border:1px solid rgba(var(--text-rgb),.08)}
+.solution__col{padding:2.5rem;position:relative}
+.solution__col--bad{background:var(--bg);border-right:1px solid rgba(var(--text-rgb),.08)}
+.solution__col--good{background:var(--bg-mid)}
+.solution__col-label{font-family:var(--mono-font);font-size:.68rem;text-transform:uppercase;letter-spacing:.2em;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:1px solid rgba(var(--text-rgb),.08)}
+.solution__col-label--bad{color:rgba(var(--text-rgb),.42)}
+.solution__col-label--good{color:var(--accent)}
+.solution__col-title{font-family:var(--headline-font);font-weight:900;font-size:1.25rem;letter-spacing:-.02em;margin-bottom:1.5rem;line-height:1.2}
+.solution__timeline{list-style:none;counter-reset:step}
+.solution__timeline li{padding:1rem 0;border-bottom:1px solid rgba(var(--text-rgb),.06);display:grid;grid-template-columns:2rem 1fr;gap:.8rem;font-size:.9rem;line-height:1.5;color:rgba(var(--text-rgb),.78);counter-increment:step}
+.solution__timeline li:last-child{border-bottom:none}
+.solution__timeline li::before{content:counter(step,decimal-leading-zero);font-family:var(--mono-font);font-size:.7rem;color:var(--accent);padding-top:.1rem;letter-spacing:.1em}
+@media(max-width:768px){.solution__grid{grid-template-columns:1fr}.solution__col--bad{border-right:none;border-bottom:1px solid rgba(var(--text-rgb),.08)}.solution__col{padding:2rem}}
+.proof{background:var(--bg);border-top:1px solid rgba(var(--text-rgb),.06);border-bottom:1px solid rgba(var(--text-rgb),.06);padding:4rem 2rem}
+.proof__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;max-width:1280px;margin:0 auto}
+.proof__item{text-align:center;padding:1.5rem;border-right:1px solid rgba(var(--text-rgb),.06)}
+.proof__item:last-child{border-right:none}
+.proof__num{font-family:var(--headline-font);font-weight:900;font-size:2.5rem;letter-spacing:-.03em;line-height:1;margin-bottom:.6rem;color:var(--text)}
+.proof__num span{color:var(--accent);font-size:.5em;font-family:var(--mono-font);text-transform:uppercase;letter-spacing:.1em;margin-left:.15em;font-weight:500}
+.proof__label{font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;color:rgba(var(--text-rgb),.5)}
+@media(max-width:768px){.proof__grid{grid-template-columns:1fr 1fr}.proof__item:nth-child(2){border-right:none}.proof__item:nth-child(1),.proof__item:nth-child(2){border-bottom:1px solid rgba(var(--text-rgb),.06)}.proof__num{font-size:2rem}}
+.proof__logos{margin-top:3rem;max-width:1100px;margin-left:auto;margin-right:auto;display:grid;grid-template-columns:repeat(6,1fr);gap:2rem;align-items:center;padding-top:2.5rem;border-top:1px solid rgba(var(--text-rgb),.06)}
+.proof__logo{font-family:var(--headline-font);font-weight:800;font-size:.85rem;text-align:center;letter-spacing:.05em;color:rgba(var(--text-rgb),.35);transition:color 400ms}
+.proof__logo:hover{color:var(--text)}
+@media(max-width:768px){.proof__logos{grid-template-columns:repeat(3,1fr);gap:1.5rem}}
+.features{background:var(--bg)}
+.features__sticky-pair{display:grid;grid-template-columns:1fr 1fr;gap:3rem;max-width:1280px;margin:0 auto;align-items:start}
+.features__left{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;justify-content:center;padding:2rem 0}
+.features__left .eyebrow{margin-bottom:1.5rem}
+.features__left .headline{font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.5rem}
+.features__left p{font-size:1rem;color:rgba(var(--text-rgb),.68);max-width:28rem;line-height:1.6}
+.features__list{display:flex;flex-direction:column}
+.feat-item{padding:2rem 0;border-bottom:1px solid rgba(var(--text-rgb),.08);position:relative;cursor:pointer;display:block}
+.feat-item:first-child{padding-top:0}
+.feat-item:last-child{border-bottom:none}
+.feat-item__head{display:flex;align-items:baseline;gap:1.2rem;margin-bottom:1rem}
+.feat-item__num{font-family:var(--mono-font);font-size:.7rem;letter-spacing:.2em;color:var(--accent)}
+.feat-item__title{font-family:var(--headline-font);font-weight:900;font-size:1.3rem;letter-spacing:-.02em;line-height:1.15;transition:color 400ms cubic-bezier(.22,1,.36,1)}
+.feat-item:hover .feat-item__title,.feat-item.is-expanded .feat-item__title{color:var(--accent)}
+.feat-item__desc-wrap{position:relative;min-height:auto;transition:min-height .4s ease}
+.feat-item:hover .feat-item__desc-wrap,.feat-item.is-expanded .feat-item__desc-wrap{min-height:200px}
+.feat-item__desc{font-size:.95rem;line-height:1.6;color:rgba(var(--text-rgb),.7);transition:opacity .35s ease;max-width:30rem}
+.feat-item:hover .feat-item__desc,.feat-item.is-expanded .feat-item__desc{opacity:0}
+.feat-item__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.05);filter:grayscale(40%) brightness(.65);transition:opacity .4s ease,transform .6s cubic-bezier(.16,1,.3,1)}
+.feat-item:hover .feat-item__img,.feat-item.is-expanded .feat-item__img{opacity:1;transform:scale(1)}
+@media(max-width:968px){.features__sticky-pair{grid-template-columns:1fr;gap:2rem}.features__left{position:static;height:auto;padding:0 0 1.5rem}.feat-item__desc-wrap{min-height:auto!important}.feat-item__img{display:none}}
+.compare{background:var(--bg-mid)}
+.compare__head{text-align:center;margin-bottom:3.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.compare__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.compare__table-wrap{max-width:1100px;margin:0 auto;border:1px solid rgba(var(--text-rgb),.08);overflow-x:auto}
+.compare__table{width:100%;border-collapse:collapse;font-size:.9rem;min-width:800px}
+.compare__table th,.compare__table td{padding:1rem 1.2rem;text-align:center;border-bottom:1px solid rgba(var(--text-rgb),.06)}
+.compare__table th{font-family:var(--headline-font);font-weight:900;font-size:.85rem;background:var(--bg);padding:1.25rem 1.2rem}
+.compare__table th.featured{color:var(--accent);border-bottom:2px solid var(--accent)}
+.compare__table td:first-child{text-align:left;font-family:var(--mono-font);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(var(--text-rgb),.7);background:rgba(var(--bg-rgb),.4)}
+.compare__table td.featured{background:rgba(var(--accent-rgb),.05)}
+.urgency{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:1px solid var(--accent);padding:1rem 2rem;z-index:90;transform:translateY(100%);transition:transform 600ms cubic-bezier(.16,1,.3,1)}
+.urgency.show{transform:translateY(0)}
+.urgency__inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1.5rem;flex-wrap:wrap}
+.urgency__left{display:flex;align-items:center;gap:1.2rem}
+.urgency__pulse{width:8px;height:8px;border-radius:50%;background:var(--accent);position:relative}
+.urgency__pulse::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--accent);animation:pulse-ring 2s ease-out infinite}
+@keyframes pulse-ring{0%{transform:scale(.8);opacity:1}100%{transform:scale(2.6);opacity:0}}
+.urgency__text{font-family:var(--mono-font);font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(var(--text-rgb),.82)}
+.urgency__text strong{color:var(--accent)}
+.urgency__progress{width:140px;height:3px;background:rgba(var(--text-rgb),.1);position:relative}
+.urgency__progress-fill{position:absolute;left:0;top:0;bottom:0;width:65%;background:var(--accent)}
+.urgency__cta{font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;padding:.6rem 1.2rem;background:var(--accent);color:var(--bg);font-weight:500;transition:all 300ms}
+.urgency__cta:hover{background:var(--text)}
+@media(max-width:768px){.urgency{padding:.8rem 1rem}.urgency__progress{display:none}.urgency__text{font-size:.65rem}}
+.pricing{background:var(--bg)}
+.pricing__head{text-align:center;margin-bottom:3.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.pricing__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.pricing__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;max-width:1100px;margin:0 auto}
+.price-card{border:1px solid rgba(var(--text-rgb),.08);padding:2.5rem 2rem;background:var(--bg-mid);display:flex;flex-direction:column;position:relative;transition:border-color 400ms,transform 400ms}
+.price-card:hover{border-color:rgba(var(--text-rgb),.2);transform:translateY(-4px)}
+.price-card--featured{border-color:var(--accent);background:var(--bg-light)}
+.price-card__badge{position:absolute;top:0;right:1.5rem;transform:translateY(-50%);background:var(--accent);color:var(--bg);font-family:var(--mono-font);font-size:.6rem;letter-spacing:.2em;padding:.4rem .8rem;font-weight:500}
+.price-card__name{font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.25em;color:var(--accent);margin-bottom:1.2rem}
+.price-card__target{font-size:.8rem;color:rgba(var(--text-rgb),.5);margin-bottom:1.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(var(--text-rgb),.08);font-family:var(--mono-font);text-transform:uppercase;letter-spacing:.1em;line-height:1.4}
+.price-card__price{font-family:var(--headline-font);font-weight:900;font-size:2.4rem;letter-spacing:-.03em;line-height:1;margin-bottom:.4rem}
+.price-card__price-period{font-size:.8rem;color:rgba(var(--text-rgb),.5);margin-bottom:2rem;font-family:var(--mono-font);text-transform:uppercase;letter-spacing:.1em}
+.price-card__list{list-style:none;margin-bottom:2rem;flex:1}
+.price-card__list li{padding:.6rem 0;border-bottom:1px solid rgba(var(--text-rgb),.06);font-size:.9rem;display:grid;grid-template-columns:1.2rem 1fr;gap:.5rem;align-items:start;color:rgba(var(--text-rgb),.85);line-height:1.4}
+.price-card__list li:last-child{border-bottom:none}
+.price-card__list li::before{content:'+';color:var(--accent);font-family:var(--mono-font)}
+.price-card__cta{width:100%;text-align:center;padding:1rem;border:1px solid var(--text);background:transparent;color:var(--text);font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;cursor:pointer;transition:all 300ms cubic-bezier(.4,0,.2,1)}
+.price-card__cta:hover{background:var(--text);color:var(--bg)}
+.price-card--featured .price-card__cta{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.price-card--featured .price-card__cta:hover{background:var(--text);border-color:var(--text)}
+@media(max-width:968px){.pricing__grid{grid-template-columns:1fr}}
+.bonus{background:var(--bg-mid)}
+.bonus__head{text-align:center;margin-bottom:3.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.bonus__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.bonus__list{max-width:800px;margin:0 auto}
+.bonus-item{display:grid;grid-template-columns:3rem 1fr auto;gap:1.5rem;padding:1.5rem 0;border-bottom:1px solid rgba(var(--text-rgb),.08);align-items:center}
+.bonus-item:first-child{border-top:1px solid rgba(var(--text-rgb),.08)}
+.bonus-item__num{font-family:var(--headline-font);font-weight:900;font-size:1.8rem;letter-spacing:-.02em;color:var(--accent);line-height:1}
+.bonus-item__name{font-family:var(--headline-font);font-weight:800;font-size:1.1rem;letter-spacing:-.01em;margin-bottom:.4rem;line-height:1.2}
+.bonus-item__desc{font-size:.85rem;color:rgba(var(--text-rgb),.6);line-height:1.5}
+.bonus-item__value{font-family:var(--mono-font);font-size:.9rem;color:var(--accent);text-align:right;white-space:nowrap}
+.bonus-item__value small{display:block;font-size:.6rem;text-transform:uppercase;letter-spacing:.2em;color:rgba(var(--text-rgb),.4);margin-bottom:.3rem}
+.bonus__total{margin-top:2.5rem;text-align:center;padding:2.5rem 2rem;border:1px solid var(--accent);max-width:800px;margin-left:auto;margin-right:auto}
+.bonus__total-label{font-family:var(--mono-font);font-size:.7rem;text-transform:uppercase;letter-spacing:.25em;color:rgba(var(--text-rgb),.6);margin-bottom:.8rem}
+.bonus__total-amount{font-family:var(--headline-font);font-weight:900;font-size:2.25rem;letter-spacing:-.025em;color:var(--accent);margin-bottom:.4rem;line-height:1}
+.bonus__total-note{font-size:.85rem;color:rgba(var(--text-rgb),.7)}
+.bonus__total-note strong{color:var(--text)}
+@media(max-width:768px){.bonus-item{grid-template-columns:2rem 1fr;gap:1rem}.bonus-item__num{font-size:1.4rem}.bonus-item__value{grid-column:2;text-align:left;margin-top:.5rem}}
+.testimonials{background:var(--bg)}
+.testimonials__head{margin-bottom:3rem;max-width:800px}
+.testimonials__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.testimonials__grid{display:grid;grid-template-columns:1fr;gap:0;max-width:1100px;margin:0 auto}
+.testimonial{padding:2.5rem 0;border-bottom:1px solid rgba(var(--text-rgb),.08);display:grid;grid-template-columns:220px 1fr;gap:3rem;align-items:start}
+.testimonial:last-child{border-bottom:none}
+.testimonial__avatar{position:relative;overflow:hidden;aspect-ratio:4/5;background:var(--bg-mid)}
+.testimonial__avatar img{width:100%;height:100%;object-fit:cover;filter:grayscale(25%) brightness(.85)}
+.testimonial__meta{margin-top:1.2rem}
+.testimonial__name{font-family:var(--headline-font);font-weight:900;font-size:1rem;letter-spacing:-.01em;margin-bottom:.2rem}
+.testimonial__role{font-family:var(--mono-font);font-size:.65rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(var(--text-rgb),.55)}
+.testimonial__quote{font-family:var(--headline-font);font-weight:800;font-size:1.25rem;letter-spacing:-.015em;line-height:1.3;margin-bottom:1.5rem}
+.testimonial__quote em{font-style:normal;color:var(--accent)}
+.testimonial__detail{font-size:.9rem;color:rgba(var(--text-rgb),.7);line-height:1.6;margin-bottom:1.5rem;max-width:40rem}
+.testimonial__stat{display:inline-flex;align-items:baseline;gap:.8rem;padding:.75rem 1rem;border:1px solid rgba(var(--text-rgb),.12);font-family:var(--mono-font);font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:rgba(var(--text-rgb),.6)}
+.testimonial__stat strong{font-family:var(--headline-font);font-weight:900;font-size:1.25rem;color:var(--accent);letter-spacing:-.02em}
+@media(max-width:768px){.testimonial{grid-template-columns:1fr;gap:2rem;padding:2rem 0}.testimonial__avatar{max-width:200px}.testimonial__quote{font-size:1.15rem}}
+.faq{background:var(--bg-mid)}
+.faq__grid{display:grid;grid-template-columns:1fr 2fr;gap:3rem;max-width:1000px;margin:0 auto}
+.faq__head .headline{font-size:clamp(1.8rem,4vw,2.5rem);margin-top:1.2rem}
+.faq__head p{margin-top:1.5rem;font-size:.9rem;color:rgba(var(--text-rgb),.6);line-height:1.6}
+.faq__list{display:flex;flex-direction:column}
+.faq-item{border-bottom:1px solid rgba(var(--text-rgb),.08)}
+.faq-item:first-child{border-top:1px solid rgba(var(--text-rgb),.08)}
+.faq-item__q{padding:1.4rem 0;display:flex;justify-content:space-between;align-items:baseline;gap:1.5rem;cursor:pointer;font-family:var(--headline-font);font-weight:800;font-size:.95rem;letter-spacing:-.01em;line-height:1.3;transition:color 300ms;background:none;border:none;width:100%;text-align:left;color:inherit}
+.faq-item__q:hover{color:var(--accent)}
+.faq-item__q-icon{flex-shrink:0;width:1.2rem;height:1.2rem;position:relative;margin-top:.2rem}
+.faq-item__q-icon::before,.faq-item__q-icon::after{content:'';position:absolute;background:currentColor;transition:transform 300ms cubic-bezier(.4,0,.2,1)}
+.faq-item__q-icon::before{top:50%;left:0;right:0;height:1px;transform:translateY(-50%)}
+.faq-item__q-icon::after{left:50%;top:0;bottom:0;width:1px;transform:translateX(-50%)}
+.faq-item.is-open .faq-item__q-icon::after{transform:translateX(-50%) scaleY(0)}
+.faq-item__a{max-height:0;overflow:hidden;transition:max-height 500ms cubic-bezier(.22,1,.36,1)}
+.faq-item.is-open .faq-item__a{max-height:500px}
+.faq-item__a-inner{padding:0 0 1.4rem;font-size:.9rem;line-height:1.6;color:rgba(var(--text-rgb),.7);max-width:40rem}
+@media(max-width:768px){.faq__grid{grid-template-columns:1fr;gap:2rem}}
+.guarantee{background:var(--bg);text-align:center;padding:5rem 2rem}
+.guarantee__badge{width:120px;height:120px;margin:0 auto 2.5rem;border:1px solid var(--accent);border-radius:50%;display:grid;place-items:center;position:relative}
+.guarantee__badge::before{content:'';position:absolute;inset:-6px;border:1px solid rgba(var(--accent-rgb),.2);border-radius:50%}
+.guarantee__badge-text{font-family:var(--headline-font);font-weight:900;font-size:1.8rem;letter-spacing:-.025em;color:var(--accent);line-height:1}
+.guarantee__badge-label{font-family:var(--mono-font);font-size:.55rem;text-transform:uppercase;letter-spacing:.2em;margin-top:.3rem;color:rgba(var(--text-rgb),.5)}
+.guarantee__title{font-family:var(--headline-font);font-weight:900;font-size:clamp(1.6rem,4vw,2.4rem);letter-spacing:-.02em;line-height:1.15;margin:1.2rem 0 1.2rem;max-width:650px;margin-left:auto;margin-right:auto}
+.guarantee__body{max-width:600px;margin:0 auto;font-size:.95rem;color:rgba(var(--text-rgb),.72);line-height:1.6}
+.fit{background:var(--bg-mid)}
+.fit__head{text-align:center;margin-bottom:3.5rem;max-width:800px;margin-left:auto;margin-right:auto}
+.fit__head .headline{font-size:clamp(1.8rem,4vw,3rem);margin-top:1.2rem}
+.fit__grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;max-width:1100px;margin:0 auto}
+.fit__col{padding:2.5rem;border:1px solid rgba(var(--text-rgb),.08)}
+.fit__col--yes{background:var(--bg);border-color:rgba(var(--accent-rgb),.3)}
+.fit__col--no{background:var(--bg-mid)}
+.fit__col-label{font-family:var(--mono-font);font-size:.68rem;text-transform:uppercase;letter-spacing:.25em;margin-bottom:1.25rem;padding-bottom:.8rem;border-bottom:1px solid rgba(var(--text-rgb),.08)}
+.fit__col--yes .fit__col-label{color:var(--accent)}
+.fit__col--no .fit__col-label{color:rgba(var(--text-rgb),.42)}
+.fit__col-title{font-family:var(--headline-font);font-weight:900;font-size:1.2rem;letter-spacing:-.02em;margin-bottom:1.5rem;line-height:1.2}
+.fit__list{list-style:none}
+.fit__list li{padding:.75rem 0;border-bottom:1px solid rgba(var(--text-rgb),.05);display:grid;grid-template-columns:1.2rem 1fr;gap:.6rem;align-items:start;font-size:.9rem;line-height:1.5;color:rgba(var(--text-rgb),.82)}
+.fit__list li:last-child{border-bottom:none}
+.fit__list li::before{font-family:var(--mono-font);font-size:.8rem;padding-top:.05rem}
+.fit__col--yes .fit__list li::before{content:'\2713';color:var(--accent)}
+.fit__col--no .fit__list li::before{content:'\2014';color:rgba(var(--text-rgb),.4)}
+@media(max-width:768px){.fit__grid{grid-template-columns:1fr}.fit__col{padding:2rem}}
+.bridge{background:linear-gradient(180deg,var(--bg-mid) 0%,var(--bg) 100%);padding:6rem 2rem;text-align:center}
+.bridge__inner{max-width:800px;margin:0 auto}
+.bridge__title{font-family:var(--headline-font);font-weight:900;font-size:clamp(2rem,4vw,3.5rem);letter-spacing:-.025em;line-height:.95;margin:1rem 0 1.5rem}
+.bridge__title em{font-style:normal;color:var(--accent)}
+.bridge__body{font-size:1rem;color:rgba(var(--text-rgb),.72);line-height:1.6;max-width:600px;margin:0 auto}
+.bridge__steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin:3rem 0;border-top:1px solid rgba(var(--text-rgb),.08);border-bottom:1px solid rgba(var(--text-rgb),.08)}
+.bridge__step{padding:1.5rem 1.2rem;border-right:1px solid rgba(var(--text-rgb),.08);text-align:left}
+.bridge__step:last-child{border-right:none}
+.bridge__step-num{font-family:var(--mono-font);font-size:.68rem;letter-spacing:.2em;color:var(--accent);margin-bottom:.8rem}
+.bridge__step-title{font-family:var(--headline-font);font-weight:900;font-size:1rem;letter-spacing:-.01em;margin-bottom:.4rem;line-height:1.2}
+.bridge__step-desc{font-size:.85rem;color:rgba(var(--text-rgb),.6);line-height:1.5}
+.bridge__cta{display:inline-flex;align-items:center;gap:.6rem;padding:1.2rem 2.2rem;background:var(--accent);color:var(--bg);font-family:var(--mono-font);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;font-weight:500;cursor:pointer;transition:all 400ms cubic-bezier(.4,0,.2,1);border:1px solid var(--accent)}
+.bridge__cta:hover{background:var(--text);border-color:var(--text);transform:translateY(-2px)}
+.bridge__cta span{transition:transform 400ms cubic-bezier(.4,0,.2,1);display:inline-block}
+.bridge__cta:hover span{transform:translateX(4px)}
+.bridge__note{margin-top:1.5rem;font-family:var(--mono-font);font-size:.68rem;text-transform:uppercase;letter-spacing:.15em;color:rgba(var(--text-rgb),.42)}
+@media(max-width:768px){.bridge__steps{grid-template-columns:1fr}.bridge__step{border-right:none;border-bottom:1px solid rgba(var(--text-rgb),.08)}.bridge__step:last-child{border-bottom:none}}
+.footer{background:var(--bg);padding:3rem 2rem 2rem;border-top:1px solid rgba(var(--text-rgb),.06)}
+.footer__inner{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;padding-bottom:2.5rem;border-bottom:1px solid rgba(var(--text-rgb),.06)}
+.footer__brand-name{font-family:var(--headline-font);font-weight:900;font-size:1rem;letter-spacing:.02em;margin-bottom:.8rem;display:flex;align-items:center;gap:.6rem}
+.footer__brand-name::before{content:attr(data-short);width:24px;height:24px;border:1.5px solid var(--accent);display:grid;place-items:center;font-size:.55rem;font-family:var(--mono-font);color:var(--accent);font-weight:500}
+.footer__brand-tagline{font-size:.85rem;color:rgba(var(--text-rgb),.55);line-height:1.6;max-width:25rem;margin-bottom:1.2rem}
+.footer__brand-meta{font-family:var(--mono-font);font-size:.65rem;color:rgba(var(--text-rgb),.4);text-transform:uppercase;letter-spacing:.1em;line-height:1.8}
+.footer__col-title{font-family:var(--mono-font);font-size:.65rem;text-transform:uppercase;letter-spacing:.2em;color:rgba(var(--text-rgb),.5);margin-bottom:1.2rem}
+.footer__col ul{list-style:none}
+.footer__col ul li{padding:.3rem 0;font-size:.85rem;color:rgba(var(--text-rgb),.7);transition:color 300ms;cursor:pointer}
+.footer__col ul li:hover{color:var(--accent)}
+.footer__bottom{max-width:1280px;margin:1.5rem auto 0;display:flex;justify-content:space-between;align-items:center;font-family:var(--mono-font);font-size:.65rem;text-transform:uppercase;letter-spacing:.12em;color:rgba(var(--text-rgb),.4);flex-wrap:wrap;gap:1rem}
+@media(max-width:768px){.footer__inner{grid-template-columns:1fr 1fr;gap:2rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.urgency__pulse::after{animation:none}}
+
+/* Hero Video */
+.hero__video-wrap{position:relative;width:100%;border-radius:12px;overflow:hidden;background:var(--bg-mid);aspect-ratio:16/9;display:flex;align-items:center;justify-content:center}
+.hero__video-wrap video{width:100%;height:100%;object-fit:cover;display:block}
+.hero__video-wrap .video-controls{position:absolute;bottom:1rem;left:50%;transform:translateX(-50%);display:flex;gap:.5rem;opacity:0;transition:opacity 400ms;z-index:2}
+.hero__video-wrap:hover .video-controls{opacity:1}
+.hero__video-wrap .video-controls button{background:rgba(0,0,0,.6);color:#fff;border:none;padding:.4rem .8rem;border-radius:4px;font-size:.7rem;cursor:pointer;transition:background 200ms}
+.hero__video-wrap .video-controls button:hover{background:rgba(0,0,0,.85)}
+.hero__video-thumb{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;z-index:1}
+.hero__video-play{position:absolute;z-index:2;width:64px;height:64px;background:rgba(0,0,0,.6);border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid rgba(255,255,255,.3);transition:all 300ms;cursor:pointer}
+.hero__video-play:hover{background:rgba(0,0,0,.8);transform:scale(1.08)}
+.hero__video-play svg{width:32px;height:32px;fill:#fff}
+.hero__video-modal{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.85);display:none;align-items:center;justify-content:center;pointer-events:none}
+.hero__video-modal.show{display:flex;pointer-events:auto}
+.hero__video-modal .backdrop{position:absolute;inset:0;cursor:pointer}
+.hero__video-modal .frame{position:relative;width:90%;max-width:900px;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}
+.hero__video-modal .frame iframe{width:100%;height:100%;border:none}
+.hero__video-modal .close{position:absolute;top:-40px;right:0;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;transition:color 300ms;z-index:2}
+.hero__video-modal .close:hover{color:#ccc}
+@media(max-width:768px){.hero__video-modal .close{top:auto;bottom:calc(100% + 10px);right:0;font-size:1.8rem}}
+
+
+.tpl-vibrant{
+  --bg:#090514;--bg-rgb:9,5,20;
+  --bg-mid:#150d27;--bg-mid-rgb:21,13,39;
+  --bg-light:#241642;
+  --text:#ffffff;--text-rgb:255,255,255;
+  --accent:#ff3366;--accent-rgb:255,51,102;
+  --accent-2:#ff9933;
+  --headline-font:'Outfit',sans-serif;
+  --body-font:'Inter',sans-serif;
+  --mono-font:'IBM Plex Mono',monospace;
+  --border-w:1px;
+  --btn-radius:12px;
+}
+/* Background Ambient Glow */
+.tpl-vibrant body {
+    background-color: var(--bg);
+    background-image: 
+        radial-gradient(circle at 15% 50%, rgba(255, 51, 102, 0.12), transparent 25vw),
+        radial-gradient(circle at 85% 30%, rgba(255, 153, 51, 0.12), transparent 25vw);
+    background-attachment: fixed;
+}
+.tpl-vibrant .hero{background:transparent;}
+.tpl-vibrant .hero::before{
+  background-image:linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+  background-size:40px 40px;
+  mask-image:radial-gradient(ellipse at center,black 40%,transparent 80%);
+  -webkit-mask-image:radial-gradient(ellipse at center,black 40%,transparent 80%);
+}
+/* Highlight Text */
+.tpl-vibrant .hero__title em, .tpl-vibrant .bridge__title em {
+  background:linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  position:relative;
+}
+.tpl-vibrant .hero__title em::after{display:none;}
+/* Glassmorphism & Cards */
+.tpl-vibrant .hero__panel, .tpl-vibrant .pain__card, .tpl-vibrant .price-card, .tpl-vibrant .solution__col, .tpl-vibrant .fit__col, .tpl-vibrant .faq-item {
+  background: rgba(21, 13, 39, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.tpl-vibrant .feat-item { border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+/* Buttons */
+.tpl-vibrant .btn {border-radius: 12px; border:none; letter-spacing:0.05em;}
+.tpl-vibrant .btn--primary, .tpl-vibrant .bridge__cta, .tpl-vibrant .urgency__cta {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(255, 51, 102, 0.35);
+  border: none;
+}
+.tpl-vibrant .btn--primary:hover, .tpl-vibrant .bridge__cta:hover, .tpl-vibrant .urgency__cta:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 35px rgba(255, 51, 102, 0.5);
+}
+.tpl-vibrant .btn--ghost { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); color: #fff; }
+.tpl-vibrant .btn--ghost:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
+.tpl-vibrant .nav__cta { border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background:rgba(255,255,255,0.05); }
+.tpl-vibrant .nav__cta:hover { background: #fff; color: var(--bg); }
+/* Gradients for Text & Numbers */
+.tpl-vibrant .feat-item__num, .tpl-vibrant .pain__card-stat-num, .tpl-vibrant .hero__stat-unit, .tpl-vibrant .testimonial__stat strong, .tpl-vibrant .bonus-item__num {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.tpl-vibrant .price-card__badge {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 800;
+}
+.tpl-vibrant .guarantee__badge {
+  border: none;
+  background: rgba(255, 51, 102, 0.1);
+  box-shadow: 0 0 30px rgba(255, 51, 102, 0.2);
+}
+.tpl-vibrant .guarantee__badge::before { display: none; }
+.tpl-vibrant .guarantee__badge-text {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+.tpl-vibrant .bonus__total-amount {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+/* Specific Sections */
+.tpl-vibrant .solution__col--good { border-left: 2px solid var(--accent); background: rgba(255,51,102,0.05); }
+.tpl-vibrant .solution__col--bad { background: transparent; }
+.tpl-vibrant .price-card--featured {
+  background: rgba(255, 51, 102, 0.05);
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 40px rgba(255, 51, 102, 0.15);
+}
+.tpl-vibrant .compare__table th { background: rgba(255, 255, 255, 0.03); }
+.tpl-vibrant .compare__table td:first-child { background: rgba(0, 0, 0, 0.2); }
+.tpl-vibrant .compare__table td.featured { background: rgba(255, 51, 102, 0.05); border-left:1px solid rgba(255,51,102,0.2); border-right:1px solid rgba(255,51,102,0.2); }
+.tpl-vibrant .compare__table th.featured { background: rgba(255, 51, 102, 0.15); color: #fff; border-top: 2px solid var(--accent); border-bottom: none; }
+.tpl-vibrant .nav { background: rgba(9, 5, 20, 0.85); border-bottom: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(20px); }
+.tpl-vibrant .urgency { border-top: 1px solid rgba(255,255,255,0.05); background: rgba(9, 5, 20, 0.95); backdrop-filter: blur(10px); }
+.tpl-vibrant .feat-item__title{color:var(--text)}
+.tpl-vibrant .feat-item:hover .feat-item__title{color:var(--accent)}
+.tpl-vibrant .faq-item__q:hover{color:var(--accent-2)}
+.tpl-vibrant .footer__brand-name::before{border-color:var(--accent);color:var(--accent)}
+.tpl-vibrant .footer__col ul li:hover{color:var(--accent-2)}
+.tpl-vibrant .hero__video-play{border-color:rgba(255, 51, 102, 0.5); background: rgba(255, 51, 102, 0.2); backdrop-filter: blur(4px);}
+.tpl-vibrant .hero__video-play:hover{background: rgba(255, 51, 102, 0.6); transform:scale(1.1);}
+
+
+    body {
+      --bg: #0f0a1a !important;
+      --bg-rgb: 15,10,26 !important;
+      --bg-mid: #1a1228 !important;
+      --bg-mid-rgb: 26,18,40 !important;
+      --bg-light: #4d455b !important;
+      --text: #ffffff !important;
+      --text-rgb: 255,255,255 !important;
+      --accent: #ff6b6b !important;
+      --accent-rgb: 255,107,107 !important;
+      --headline-font: 'Outfit', sans-serif !important;
+      --body-font: 'Inter', sans-serif !important;
+    }
+  
+</style>
+UA-XXXXXXXXX-X
+</head>
+<body class="tpl-vibrant">
+<nav class="nav" id="nav"><a href="#" class="nav__logo"><span class="nav__logo-mark">MT</span><span>MARVATEL TEMPEH</span></a><div class="nav__links"><a href="#pain">Masalah</a><a href="#features">Keunggulan</a><a href="#pricing">Harga</a><a href="#faq">FAQ</a></div><button class="nav__cta" onclick="window.open('https://wa.me/+6285748398024', '_blank')">Pesan Sekarang, Pasang Hari Ini!</button></nav>
+<section class="hero" id="hero"><div class="hero__grid"><div class="hero__left"><div class="eyebrow hero__eyebrow">#InternetTanpaRibet #GratisPasang</div><h1 class="hero__title"><span style="color:#fdfcfc">Bosan Internet</span> Lemot & Tagihan Membengkak? Waktunya Beralih ke <em>MARVATEL</em>
+
+</h1><p class="hero__sub">Nikmati kecepatan internet yang stabil untuk kerja, streaming, dan gaming. GRATIS biaya pemasangan, harga mulai 100 ribuan, dan pembayaran mudah. Kantor kami dekat, layanan kami cepat!</p><div class="hero__ctas"><button class="btn btn--primary" onclick="window.open('https://wa.me/+6285748398024', '_blank')">Pesan Sekarang, Pasang Hari Ini! <span class="btn__arrow">&rarr;</span></button><button class="btn btn--ghost" onclick="window.open('#', '_blank')">Lihat Paket &amp; Promo</button></div></div><div class="hero__panel"><div class="hero__panel-label">Indikator</div><div class="hero__stat">1000+<span class="hero__stat-unit">Pelanggan</span></div><div class="hero__stat-desc">Telah merasakan kecepatan dan stabilitas internet MARVATEL</div><div class="hero__panel-meta"><div class="hero__panel-meta-item">Rating Kepuasan Pelanggan<strong>4.9</strong></div><div class="hero__panel-meta-item">Uptime Jaringan<strong>99.9%</strong></div></div></div></div></section>
+<section class="section pain" id="pain"><div class="container"><div class="pain__intro"><div class="eyebrow">Mengapa Anda Butuh Ini?</div><h2 class="headline headline-enter">Apakah ini yang Anda rasakan setiap hari?</h2></div><div class="pain__pair"><div class="pain__card"><div class="pain__card-num">01</div><h3 class="pain__card-title">Internet Lemot &amp; Sering Terputus</h3><p class="pain__card-body">Saat meeting online penting, video call tiba-tiba putus. Streaming film favorit buffer terus. Download file besar butuh berjam-jam. Ini bukan hanya mengganggu, tapi membuang waktu dan merusak produktivitas Anda!</p><div class="pain__card-stat"><span class="pain__card-stat-num">70%</span><span class="pain__card-stat-label">Produktivitas turun drastis akibat koneksi buruk</span></div></div><div class="pain__card"><div class="pain__card-num">02</div><h3 class="pain__card-title">Biaya Mahal &amp; Tersembunyi</h3><p class="pain__card-body">Anda membayar mahal untuk internet, tapi kecepatan yang didapat tidak sebanding. Belum lagi biaya pemasangan yang membengkak dan biaya-biaya tersembunyi lainnya yang membuat dompet Anda menjerit. Anda butuh solusi internet yang transparan dan hemat!</p><div class="pain__card-stat"><span class="pain__card-stat-num">Rp 200.000+</span><span class="pain__card-stat-label">Rata-rata biaya pemasangan ISP lain</span></div></div></div></div></section>
+<section class="section solution" id="solution"><div class="container"><div class="solution__head"><div class="eyebrow">Solusi Pasti</div><h2 class="headline headline-enter">Hadirkan solusi internet yang berbeda: Cepat, Stabil, Aman, dan Terjangkau.</h2></div><div class="solution__grid"><div class="solution__col solution__col--bad"><div class="solution__col-label solution__col-label--bad">LANJUTKAN KESULITAN</div><h3 class="solution__col-title">Nasib Anda jika tetap bertahan di ISP lama</h3><ol class="solution__timeline"><li>Membuang puluhan hingga ratusan ribu untuk biaya pasang</li><li>Membayar tagihan bulanan yang tidak sebanding dengan kualitas</li><li>Produktivitas dan hiburan Anda terus terganggu</li><li>Stress karena koneksi yang tidak pernah stabil</li></ol></div><div class="solution__col solution__col--good"><div class="solution__col-label solution__col-label--good">HIDUP TENANG BERSAMA MARVATEL</div><h3 class="solution__col-title">Kehidupan baru dengan internet MARVATEL Tempeh</h3><ol class="solution__timeline"><li>Nikmati kecepatan internet untuk semua kebutuhan, dari kerja hingga hiburan</li><li>Bebas khawatir soal biaya pasang (GRATIS!)</li><li>Bayar hanya untuk kecepatan yang Anda rasakan</li><li>Koneksi stabil 24/7, tim teknisi kami siap bantu kapan saja</li></ol></div></div></div></section>
+<section class="section proof" id="proof"><div class="container"><div class="proof__grid"><div class="proof__item"><div class="proof__num">1000+<span>Pelanggan</span></div><div class="proof__label">Telah mempercayakan koneksi internetnya pada MarvAtel</div></div><div class="proof__item"><div class="proof__num">50+<span>Kecamatan</span></div><div class="proof__label">Jangkauan layanan terluas di Tempeh dan sekitarnya</div></div><div class="proof__item"><div class="proof__num">2<span>Jam</span></div><div class="proof__label">Rata-rata waktu respon teknisi untuk pemasangan dan perbaikan</div></div></div><div class="proof__logos"><div class="proof__logo">Kafe &amp; Resto Tempeh</div><div class="proof__logo">Kantor Desa &amp; Pemerintahan</div><div class="proof__logo">Sekolah &amp; Lembaga Pendidikan</div><div class="proof__logo">Perusahaan E-Commerce Lokal</div><div class="proof__logo">Klinik &amp; Praktek Dokter</div></div></div></section>
+<section class="section features" id="features"><div class="features__sticky-pair"><div class="features__left"><div class="eyebrow">FITUR UNGGULAN</div><h2 class="headline">Kehebatan Internet MARVATEL Tempeh</h2><p>Dirancang khusus untuk memenuhi kebutuhan digital Anda tanpa ribet.</p></div><div class="features__list"><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">01</span><h3 class="feat-item__title">Kecepatan Super &amp; Stabil</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Teknologi fiber optic terbaru memastikan kecepatan yang Anda bayar sesuai. Streaming 4K, gaming online, meeting video, semuanya mulus tanpa putus.</p><img class="feat-item__img" src="./assets/img_1.jpg" alt=""></div></a><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">02</span><h3 class="feat-item__title">Fitur Keamanan Terintegrasi</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Setiap paket sudah dilengkapi dengan sistem keamanan untuk melindungi perangkat Anda dari ancaman siber dan situs berbahaya. Jaringan privat dan aman!</p><img class="feat-item__img" src="./assets/img_2.jpg" alt=""></div></a><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">03</span><h3 class="feat-item__title">Gratis Biaya Pemasangan</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Promo spesial! Bebas biaya pemasangan hingga 200 ribu. Kami pasang dan siap pakai tanpa biaya tambahan. Investasi awal Anda benar-benar ringan.</p><img class="feat-item__img" src="./assets/img_3.jpg" alt=""></div></a><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">04</span><h3 class="feat-item__title">Harga Hemat Mulai 110 Ribu</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Berbagai paket internet yang bisa disesuaikan dengan kebutuhan dan anggaran Anda. Mulai dari kebutuhan ringan hingga heavy usage. Bayar sesuai kebutuhan!</p><img class="feat-item__img" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Eaffordable-price-tag%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div></a><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">05</span><h3 class="feat-item__title">Pembayaran Mudah &amp; Fleksibel</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Bayar tagihan secara online via transfer bank atau e-wallet favorit Anda. Atau bisa juga datang langsung ke kantor kami yang dekat dan mudah dijangkau.</p><img class="feat-item__img" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Epayment-methods%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div></a><a class="feat-item" href="#"><div class="feat-item__head"><span class="feat-item__num">06</span><h3 class="feat-item__title">Layanan Cepat &amp; Kantor Dekat</h3></div><div class="feat-item__desc-wrap"><p class="feat-item__desc">Kami hadir di Tempeh! Dengan kantor yang dekat, tim teknisi kami bisa merespons lebih cepat. Tidak perlu menunggu berhari-hari untuk pemasangan atau perbaikan.</p><img class="feat-item__img" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22500%22%20viewBox%3D%220%200%20800%20500%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Enearby-office-map%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div></a></div></div></section>
+<section class="section compare" id="compare"><div class="container"><div class="compare__head"><div class="eyebrow">Perbandingan</div><h2 class="headline headline-enter">Inilah mengapa MARVATEL adalah pilihan tepat dibandingkan yang lain.</h2></div><div class="compare__table-wrap"><table class="compare__table"><thead><tr><th></th><th>Kriteria</th><th>RTRW NET</th><th class="featured">MARVATEL</th><th>Paket Data HP</th></tr></thead><tbody><tr><td>Kecepatan</td><td class="">Sering Lemot &amp; Fluktuatif</td><td class="">Bergantung Sinyal</td><td class="featured">Stabil &amp; Sesuai Paket</td></tr><tr><td>Biaya Pemasangan</td><td class="">Mahal (Ratusan Ribu)</td><td class="">Tidak Ada (Tapi Terbatas)</td><td class="featured">GRATIS</td></tr><tr><td>Harga Bulanan</td><td class="">Mahal &amp; Membengkak</td><td class="">Mulai 100 Ribuan Dibawah 10 Mbps</td><td class="featured">110 Ribu 13 Mbps</td></tr><tr><td>Pembayaran</td><td class="">Rumit</td><td class="">Mudah</td><td class="featured">Mudah Online/Offline</td></tr><tr><td>Layanan</td><td class="">Lama &amp; Jauh</td><td class="">Bergantung Provider</td><td class="featured">Cepat &amp; Kantor Dekat</td></tr><tr><td>Keamanan</td><td class="">Standar</td><td class="">Tergantung Sinyal</td><td class="featured">Terintegrasi &amp; Aman</td></tr></tbody></table></div></div></section>
+<div class="urgency" id="urgency"><div class="urgency__inner"><div class="urgency__left"><span class="urgency__pulse"></span><span class="urgency__text">Promo GRATIS BIAYA PEMASANGAN  berlaku untuk 100 pelanggan pertama di Tempeh! Jangan sampai kehabisan dan harus bayar biaya pasang nanti!</span></div><div class="urgency__progress"><div class="urgency__progress-fill"></div></div><button class="urgency__cta" onclick="window.open('#', '_blank')">Klaim Promo Gratis Pasang Sekarang</button></div></div>
+<section class="section pricing" id="pricing"><div class="container"><div class="pricing__head"><div class="eyebrow">Investasi</div><h2 class="headline headline-enter">Pilih paket yang paling sesuai dengan kebutuhan Anda.</h2></div><div class="pricing__grid"><div class="price-card"><div class="price-card__name">Paket Rumahan</div><div class="price-card__target">Untuk Keluarga &amp; Streaming</div><div class="price-card__price">Rp 110.000</div><div class="price-card__price-period">/bulan</div><ul class="price-card__list"><li>Kecepatan hingga 13  Mbps</li><li>Cocok untuk 3-5 perangkat</li><li>Gratis Biaya Pemasangan</li></ul><button class="price-card__cta" onclick="window.open('https://wa.me/+6285748398024', '_blank')">Pilih Paket Ini</button></div><div class="price-card price-card--featured"><div class="price-card__badge">PILIHAN TERBAIK</div><div class="price-card__name">Paket Pro</div><div class="price-card__target">Paling Laris</div><div class="price-card__price">Rp 165.000</div><div class="price-card__price-period">/bulan</div><ul class="price-card__list"><li>Kecepatan hingga 25 Mbps</li><li>Cocok untuk 5-7 perangkat</li><li>Gratis Biaya Pemasangan</li><li>Prioritas Layanan Teknisi</li></ul><button class="price-card__cta" onclick="window.open('https://wa.me/+6285748398024', '_blank')">Pilih Paket Ini</button></div><div class="price-card"><div class="price-card__name">Paket Gamer</div><div class="price-card__target">Untuk Gaming &amp; Streaming 4K</div><div class="price-card__price">Rp 500.000</div><div class="price-card__price-period">/bulan</div><ul class="price-card__list"><li>Kecepatan hingga 100 Mbps</li><li>Cocok untuk 15+ perangkat</li><li>Gratis Biaya Pemasangan</li><li>Dedicated Bandwidth</li></ul><button class="price-card__cta" onclick="window.open('https://wa.me/+6285748398024', '_blank')">Pilih Paket Ini</button></div></div></div></section>
+<section class="section bonus" id="bonus"><div class="container"><div class="bonus__head"><div class="eyebrow">Bonus Spesial</div><h2 class="headline headline-enter">Beli paket apapun hari ini dan dapatkan bonus eksklusif!</h2></div><div class="bonus__list"><div class="bonus-item"><div class="bonus-item__num">01</div><div><h3 class="bonus-item__name">Bebas Biaya Pemasangan</h3><p class="bonus-item__desc">Hemat hingga Rp 250.000 untuk biaya pasang kabel dan instalasi.</p></div><div class="bonus-item__value"><small>Senilai</small>Rp 250.000</div></div><div class="bonus-item"><div class="bonus-item__num"></div><div><h3 class="bonus-item__name">Prioritas Layanan 24/7</h3><p class="bonus-item__desc">Jadi prioritas utama kami untuk segala kebutuhan teknis, termasuk malam hari dan akhir pekan.</p></div><div class="bonus-item__value"><small>Senilai</small></div></div></div><div class="bonus__total"><div class="bonus__total-label">Total Keuntungan</div><div class="bonus__total-amount"></div><div class="bonus__total-note"></div></div></div></section>
+<section class="section testimonials" id="testimonials"><div class="container"><div class="testimonials__head"><div class="eyebrow">KATA MEREKA</div><h2 class="headline headline-enter">Bukti Nyata Kepuasan Pelanggan MARVATEL Tempeh</h2></div><div class="testimonials__grid"><div class="testimonial"><div><div class="testimonial__avatar"><img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22750%22%20viewBox%3D%220%200%20600%20750%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Eman-smiling-cafe%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div><div class="testimonial__meta"><div class="testimonial__name">Bapak Andi</div><div class="testimonial__role">Pemilik Kafe di Tempeh</div></div></div><div><p class="testimonial__quote">Sejak pasang MARVATEL, pelanggan kafe saya betah karena WiFi cepat. Streaming musik dan video lancar, tidak ada lagi keluhan dari pelanggan!</p><p class="testimonial__detail">Saya dulu sering kewalahan dengan internet lemot yang bikin pelanggan kesal. Setelah beralih ke MARVATEL, masalah itu hilang. Kecepatan stabil, tim teknisi juga sigap. Pelanggan makin betah dan omzet kafe saya naik 20%.</p><div class="testimonial__stat"><strong>+20%</strong><span>Kenaikan Omzet</span></div></div></div><div class="testimonial"><div><div class="testimonial__avatar"><img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22750%22%20viewBox%3D%220%200%20600%20750%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Ewoman-working-laptop%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div><div class="testimonial__meta"><div class="testimonial__name">Ibu Rina</div><div class="testimonial__role">Pekerja Freelance</div></div></div><div><p class="testimonial__quote">Internetnya stabil banget, nggak pernah putus pas meeting online. Harga juga terjangkau buat kantong anak muda. Banget rekomendasi!</p><p class="testimonial__detail">Sebagai freelancer, internet adalah nafas kerjaan saya. Dulu sering gagal meeting karena koneksi jelek, klien kecewa. Kini dengan MARVATEL, semua meeting lancar jaya. Pengiriman file besar juga cepat. Saya lebih produktif dan penghasilan stabil.</p><div class="testimonial__stat"><strong>Stabil</strong><span>Koneksi 24/7</span></div></div></div><div class="testimonial"><div><div class="testimonial__avatar"><img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22600%22%20height%3D%22750%22%20viewBox%3D%220%200%20600%20750%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232a3a34%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20dominant-baseline%3D%22middle%22%20text-anchor%3D%22middle%22%20fill%3D%22%23b8a878%22%20font-family%3D%22Inter%2C%20sans-serif%22%20font-size%3D%2220px%22%20font-weight%3D%22600%22%3Eman-confident-standing%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E" alt=""></div><div class="testimonial__meta"><div class="testimonial__name">Pak Budi</div><div class="testimonial__role">Kepala Sekolah</div></div></div><div><p class="testimonial__quote">Kami pasang untuk keperluan sekolah dan guru. Jaringan MARVATEL sangat membantu proses belajar-mengajar digital. Gratis pasangnya juga sangat membantu! </p><p class="testimonial__detail">Kami membutuhkan internet untuk akses e-learning dan administrasi sekolah. MARVATEL memberikan koneksi yang stabil dan kecepatan yang cukup untuk seluruh guru dan siswa. Proses registrasi dan pemasangan cepat tanpa ribet. Sangat direkomendasikan!</p><div class="testimonial__stat"><strong>10+</strong><span>Perangkat Aktif</span></div></div></div></div></div></section>
+<section class="section faq" id="faq"><div class="faq__grid"><div class="faq__head"><div class="eyebrow">TANYA JAWAB</div><h2 class="headline">Pertanyaan Umum Mengenai MARVATEL</h2><p>Masih ragu? Cek pertanyaan yang sering diajukan berikut ini.</p></div><div class="faq__list"><div class="faq-item"><button class="faq-item__q"><span>Apa benar GRATIS biaya pemasangan?</span><span class="faq-item__q-icon"></span></button><div class="faq-item__a"><div class="faq-item__a-inner">Benar! Untuk periode promo ini, biaya pemasangan Rp 250.000 kami GRATISkan untuk Anda. Anda hanya membayar biaya bulanan paket yang dipilih.</div></div></div><div class="faq-item"><button class="faq-item__q"><span>Berapa kecepatan internet yang saya dapatkan?</span><span class="faq-item__q-icon"></span></button><div class="faq-item__a"><div class="faq-item__a-inner">Tergantung paket yang Anda pilih. Mulai dari 20 Mbps untuk paket rumahan, 50 Mbps untuk paket Pro, hingga 100 Mbps untuk paket Gamer. Semua paket menjanjikan kecepatan stabil dan sesuai.</div></div></div><div class="faq-item"><button class="faq-item__q"><span>Bagaimana cara pembayaran tagihan bulanan?</span><span class="faq-item__q-icon"></span></button><div class="faq-item__a"><div class="faq-item__a-inner">Anda bisa bayar melalui transfer bank, e-wallet (OVO, Gopay, Dana), atau datang langsung ke kantor kami di Tempeh. Kami juga menyediakan notifikasi tagihan agar Anda tidak ketinggalan.</div></div></div><div class="faq-item"><button class="faq-item__q"><span>Apa yang terjadi jika ada gangguan jaringan?</span><span class="faq-item__q-icon"></span></button><div class="faq-item__a"><div class="faq-item__a-inner">Tim teknisi kami siap membantu 24/7. Karena kantor kami dekat, kami janjikan respon cepat dan perbaikan maksimal 2x24 jam untuk gangguan teknis.</div></div></div><div class="faq-item"><button class="faq-item__q"><span>Apakah saya bisa upgrade paket di kemudian hari?</span><span class="faq-item__q-icon"></span></button><div class="faq-item__a"><div class="faq-item__a-inner">Tentu saja. Anda bisa menghubungi customer service kami kapan saja untuk upgrade atau downgrade paket sesuai kebutuhan.</div></div></div></div></div></section>
+
+<section class="section fit" id="fit"><div class="container"><div class="fit__head"><div class="eyebrow">Transparansi</div><h2 class="headline headline-enter">Siapa yang wajib punya internet MARVATEL Tempeh?</h2></div><div class="fit__grid"><div class="fit__col fit__col--yes"><div class="fit__col-label">Cocok Untuk</div><h3 class="fit__col-title">Beli jika Anda:</h3><ul class="fit__list"><li>Pekerja kantoran atau freelancer yang butuh internet stabil untuk meeting</li><li>Pelajar dan mahasiswa yang butuh akses cepat untuk belajar dan mengerjakan tugas</li><li>Pemilik bisnis (kafe, toko, kantor) yang butuh koneksi andal untuk operasional dan pelanggan</li><li>Keluarga yang suka streaming, gaming, dan berselancar di internet</li><li>Siapa pun yang lelah dengan biaya pasang mahal dan internet lemot</li></ul></div><div class="fit__col fit__col--no"><div class="fit__col-label">Tidak Cocok Untuk</div><h3 class="fit__col-title">Jangan beli jika:</h3><ul class="fit__list"><li>Anda merasa puas dengan internet lemot dan biaya pasang mahal</li><li>Anda tidak memiliki perangkat apapun yang terhubung ke internet</li><li>Anda tidak tinggal atau beraktivitas di area jangkauan MARVATEL Tempeh</li></ul></div></div></div></section>
+<section class="section bridge" id="bridge"><div class="bridge__inner"><div class="eyebrow bridge__eyebrow">PESAN SEKARANG</div><h2 class="bridge__title">Jangan Tunda! Dapatkan Internet Cepat, Stabil, dan Aman Hari Ini!</h2><p class="bridge__body">Rasakan langsung perbedaannya. Tim kami akan segera menghubungi Anda untuk proses pemasangan yang cepat dan tanpa ribet. Persediaan promo GRATIS BIAYA PEMASANGAN terbatas!</p><div class="bridge__steps"><div class="bridge__step"><div class="bridge__step-num">1</div><div class="bridge__step-title">Pesan Sekarang</div><div class="bridge__step-desc">Klik tombol di bawah ini untuk mengisi formulir pemesanan singkat.</div></div><div class="bridge__step"><div class="bridge__step-num">2</div><div class="bridge__step-title">Konfirmasi &amp; Jadwal</div><div class="bridge__step-desc">Tim kami akan hubungi Anda untuk konfirmasi paket dan jadwal pemasangan.</div></div><div class="bridge__step"><div class="bridge__step-num">3</div><div class="bridge__step-title">Nikmati Internet! </div><div class="bridge__step-desc">Teknisi kami datang, pasang, dan Anda bisa langsung menikmati internet super cepat.</div></div></div><button class="bridge__cta">Pesan &amp; Gratis Pasang Sekarang <span>&rarr;</span></button><div class="bridge__note">Promo terbatas! Hanya untuk 100 pelanggan pertama di Tempeh.</div></div></section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-name" data-short="MT">MARVATEL TEMPEH</div>
+          <p class="footer__brand-tagline">Internet Cepat, Stabil, dan Aman, Tanpa Biaya Pasang!</p>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Produk/Layanan</div>
+          <ul><li>Katalog</li><li>Pemesanan</li><li>Testimoni</li></ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Bantuan</div>
+          <ul><li>Cara Order</li><li>FAQ</li><li>Garansi</li></ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__col-title">Hubungi Kami</div>
+          <ul><li>WhatsApp</li><li>Instagram</li><li>Tiktok</li></ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 MARVATEL TEMPEH. Dibuat menggunakan Halaman Usaha.</span>
+        <span>Syarat & Ketentuan · Kebijakan Privasi</span>
+      </div>
+    </footer>
+  
+<script>
+(function(){var r=window.matchMedia('(prefers-reduced-motion: reduce)').matches;var t=window.matchMedia('(pointer: coarse)').matches;setTimeout(function(){document.getElementById('hero').classList.add('is-in');},120);var nav=document.getElementById('nav');var urg=document.getElementById('urgency');function onScroll(){var y=window.scrollY;if(y>50)nav.classList.add('scrolled');else nav.classList.remove('scrolled');var d=document.body.scrollHeight;var v=window.innerHeight;if(y>v*0.8&&y<d-v-700)urg.classList.add('show');else urg.classList.remove('show');}window.addEventListener('scroll',onScroll,{passive:true});onScroll();var o=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){en.target.classList.add('is-in');o.unobserve(en.target);}});},{threshold:0.12,rootMargin:'0px 0px -8% 0px'});document.querySelectorAll('.section').forEach(function(s){o.observe(s);});document.querySelectorAll('.faq-item').forEach(function(it){var q=it.querySelector('.faq-item__q');q.addEventListener('click',function(){var w=it.classList.contains('is-open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('is-open');});if(!w)it.classList.add('is-open');});});document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var tg=document.querySelector(a.getAttribute('href'));if(tg){e.preventDefault();window.scrollTo({top:tg.getBoundingClientRect().top+window.scrollY-80,behavior:'smooth'});}});});if(t){document.querySelectorAll('.feat-item').forEach(function(it){it.addEventListener('click',function(e){e.preventDefault();document.querySelectorAll('.feat-item').forEach(function(i){if(i!==it)i.classList.remove('is-expanded');});it.classList.toggle('is-expanded');});});}})();
+</script>
+</body>
+</html>
